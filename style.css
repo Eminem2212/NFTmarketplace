@@ -224,4 +224,68 @@ body .SignUp {
   border-radius: 5px;
   line-height: 10px;
 }
+
+.DoubleTexts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Filter {
+  width: 100px;
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+}
+
+.Nftheads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.tall {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* Auto layout */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20.6098px 30.9146px;
+  width: 323.57px;
+  height: 307.35px;
+  border-radius: 10.3049px;
+}
+
+.buttons {
+  width: 130px;
+  font-size: 10px;
+}
+
+.btnLearmore {
+  font-size: small;
+  font-weight: lighter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

@@ -162,7 +162,7 @@ body {
 
 .TrustInUs {
     padding: auto;
-    
+
     background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
     text-decoration: none;
     display: flex;
@@ -174,4 +174,46 @@ body {
     border: #9b51e0;
     border-radius: 5px;
     line-height: 10px;
+}
+.DoubleTexts {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.Filter {
+    width: 100px;
+    background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+}
+.Nftheads {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.tall {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20.6098px 30.9146px;
+    // gap: 12.37px;
+
+    width: 323.57px;
+    height: 307.35px;
+
+    border-radius: 10.3049px;
+}
+.buttons{
+    width: 130px;
+    font-size: 10px;
+}
+.btnLearmore{
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
 }
