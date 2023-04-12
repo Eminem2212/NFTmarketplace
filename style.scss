@@ -1,6 +1,8 @@
 body {
     color: white;
     background-color: black;
+    //styleName: h5/button & Description;
+    font-family: Poppins;
     .navhead {
         cursor: pointer;
         justify-content: center;
@@ -152,7 +154,7 @@ body {
     background-clip: text;
 }
 
-.CEO{
+.CEO {
     background-color: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
     -webkit-background-clip: text;
     // color: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
@@ -214,66 +216,62 @@ body {
 
     border-radius: 10.3049px;
 }
-.buttons{
+.buttons {
     width: 130px;
     font-size: 10px;
 }
-.btnLearmore{
+.btnLearmore {
     font-size: small;
     font-weight: lighter;
     display: flex;
     justify-content: center !important;
     align-items: center;
-    position:absolute;
+    position: absolute;
     left: 650px;
 }
-.LogoBininace{
-   
+.LogoBininace {
     box-sizing: border-box;
     border-radius: 10px;
-// background: #9b51e0;
-    border-radius: 5px solid black ;
+    // background: #9b51e0;
+    border-radius: 5px solid black;
     height: 300px;
-   padding: 20px;
+    padding: 20px;
     max-height: 500px;
     padding: 120px;
 }
 
-.BinanceW{
+.BinanceW {
     display: flex;
     justify-content: center;
 }
-.logoAgain{
+.logoAgain {
     background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
-   background-attachment: fixed;
-     
+    background-attachment: fixed;
 }
-.Allbtns{
-   
+.Allbtns {
     display: flex;
     justify-content: space-evenly;
 }
 
-.indbtn{
-height: 50px;
-
+.indbtn {
+    height: 50px;
 }
-.PeopleText{
+.PeopleText {
     display: flex;
     justify-content: center;
-    padding-top: 200px; 
+    padding-top: 200px;
 }
-.PeopleTalk{
+.PeopleTalk {
     display: flex;
     // justify-content: center;
     padding-top: 70px;
     font-size: small;
     margin: 10px;
 }
-.girlImg{
+.girlImg {
     border-radius: 10px;
 }
-.GirlText{
+.GirlText {
     display: flex;
     // flex-direction: column;
     // justify-content: center;
@@ -287,7 +285,7 @@ height: 50px;
     border-radius: 10px;
     line-height: 20px;
 }
-.Notified{
+.Notified {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -298,20 +296,18 @@ height: 50px;
     width: 1000px;
     height: 300px;
     border-radius: 10px;
-   
+
     padding: 10px;
     margin: 20px;
-
-   
 }
-.email{
+.email {
     width: 30%;
-   box-shadow: #3081ed;
+    box-shadow: #3081ed;
     border-radius: 5px;
-box-sizing: border-box;
-padding: auto;
-height: 45px;
-align-items: center;
-margin: auto;
-padding: 2px;
+    box-sizing: border-box;
+    padding: auto;
+    height: 45px;
+    align-items: center;
+    margin: auto;
+    padding: 2px;
 }
