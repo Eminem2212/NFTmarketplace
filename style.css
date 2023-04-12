@@ -294,6 +294,8 @@ body .SignUp {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  left: 650px;
 }
 
 .LogoBininace {
@@ -304,6 +306,7 @@ body .SignUp {
   height: 300px;
   padding: 20px;
   max-height: 500px;
+  padding: 120px;
 }
 
 .BinanceW {
@@ -331,5 +334,91 @@ body .SignUp {
 
 .indbtn {
   height: 50px;
+}
+
+.PeopleText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 200px;
+}
+
+.PeopleTalk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  font-size: small;
+  margin: 10px;
+}
+
+.girlImg {
+  border-radius: 10px;
+}
+
+.GirlText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  -webkit-box-shadow: blueviolet;
+          box-shadow: blueviolet;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 370px;
+  border-radius: 10px;
+  line-height: 20px;
+}
+
+.Notified {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  -webkit-box-shadow: blueviolet;
+          box-shadow: blueviolet;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1000px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.email {
+  width: 30%;
+  -webkit-box-shadow: #3081ed;
+          box-shadow: #3081ed;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: auto;
+  height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  padding: 2px;
 }
 /*# sourceMappingURL=style.css.map */
